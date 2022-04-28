@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ruan Pretorius</title>
+    <link>https://ruankie.github.io/</link>
+    <description>Recent content on Ruan Pretorius</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 16 Apr 2022 23:39:49 +0530</lastBuildDate><atom:link href="https://ruankie.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>On the naivety of ML models and how to avoid the naive trap</title>
+      <link>https://ruankie.github.io/publications/naive-ml/</link>
+      <pubDate>Sat, 16 Apr 2022 23:39:49 +0530</pubDate>
+      
+      <guid>https://ruankie.github.io/publications/naive-ml/</guid>
+      <description>See original article here
+ The naive trap When forecasting stock price movements with fancy ML models, you want your models to learn something useful from the provided data that humans might not be aware of so you have a competitive edge. This article will show you examples of where those fancy ML models learn something dumb that looks intelligent and how to check if your models are doing the same.</description>
+    </item>
+    
+    <item>
+      <title>Deep Reinforcement Learning and Convex Mean-Variance Optimisation for Portfolio Management</title>
+      <link>https://ruankie.github.io/publications/rl-pm-msc/</link>
+      <pubDate>Tue, 22 Feb 2022 16:21:29 +0200</pubDate>
+      
+      <guid>https://ruankie.github.io/publications/rl-pm-msc/</guid>
+      <description>See full paper here
+ Abstract Traditional portfolio management methods can incorporate specific investor preferences but rely on accurate forecasts of asset returns and covariances. Reinforcement learning (RL) methods do not rely on these explicit forecasts and are better suited for multi-stage decision processes. To address limitations of the evaluated research, experiments were conducted on three markets in different economies with different overall trends. By incorporating specific investor preferences into our RL models’ reward functions, a more comprehensive comparison could be made to traditional methods in risk-return space.</description>
+    </item>
+    
+    <item>
+      <title>Binary Spam Classifier</title>
+      <link>https://ruankie.github.io/projects/spam-classifier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ruankie.github.io/projects/spam-classifier/</guid>
+      <description>Natural Language Processing with LSTM in TensorFlow 2 Project Overview This model uses a binary classifier to classify a given message as either spam or ham (not spam). It was created using TensorFlow 2.x and consists of a Long Short Term Memory (LSTM) neural network that is able to capture long-term dependencies in the words that make up a message. This model also uses an embedding layer that encodes words into an abstract 20-dimensional space so that they can be represented as vectors with contextual proximity.</description>
+    </item>
+    
+    <item>
+      <title>Differentially Private Range Queries</title>
+      <link>https://ruankie.github.io/projects/dp-range-queries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ruankie.github.io/projects/dp-range-queries/</guid>
+      <description>Overview This study looked at the challenge of producing accurate answers to range queries on two-dimensional geospatial data sets while still preserving the privacy of the data set participants. For verification purposes, the relative errors produced in answering these range queries were compared to those obtained from Zhang et al. (2016) using the same algorithms on the same data sets.
+Interactive Web-App Use the interactive web-app to see how different algorithms spatially decompose 2D geospatial data to answer range queries that satisfy differential privacy.</description>
+    </item>
+    
+    <item>
+      <title>Forecasting Stock Market Price Movements</title>
+      <link>https://ruankie.github.io/projects/stock-price-movements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ruankie.github.io/projects/stock-price-movements/</guid>
+      <description>See summary poster here
+ Project Overiew Accurate financial time series forecasts can assist investors in gaining a competitive edge over other participants in capital markets. Previous research yielded contradicting results pertaining to the superiority of machine learning (ML) over statistical models in time-series forecasting.
+No empirical conclusion existed on what the most accurate model(s) were for forecasting stock market price movements over different forecast horizons. Existing studies either lacked comparisons to benchmarks, lacked multi-step-ahead forecasts, or did not use a large enough data set for statistically significant conclusions.</description>
+    </item>
+    
+    <item>
+      <title>Soil Resistivity Prediction</title>
+      <link>https://ruankie.github.io/projects/soil-resistivity-prediction/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ruankie.github.io/projects/soil-resistivity-prediction/</guid>
+      <description>Soil Resistivity Prediction in South Africa: Using Decision Trees for Improving The Design Process of Overhead Power Line Tower Earth Electrodes
+ Read the full report here.
+ Project Overview Soil resistivity measurements are required for the earth electrode design of many structures like telecommunication towers, photovoltaic power plants, and overhead power lines to comply with design standards. For long lines of high voltage overhead power lines, this may require the laborious task of soil resistivity measurement at every tower site as well as a multistep iterative design and construction process.</description>
+    </item>
+    
+  </channel>
+</rss>
