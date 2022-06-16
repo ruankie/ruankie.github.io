@@ -32,7 +32,7 @@ Interactive Web-App Use the interactive web-app to see how different algorithms 
       
       <guid>https://ruankie.github.io/projects/stock-price-movements/</guid>
       <description>See summary poster here
- Project Overiew Accurate financial time series forecasts can assist investors in gaining a competitive edge over other participants in capital markets. Previous research yielded contradicting results pertaining to the superiority of machine learning (ML) over statistical models in time-series forecasting.
+Project Overiew Accurate financial time series forecasts can assist investors in gaining a competitive edge over other participants in capital markets. Previous research yielded contradicting results pertaining to the superiority of machine learning (ML) over statistical models in time-series forecasting.
 No empirical conclusion existed on what the most accurate model(s) were for forecasting stock market price movements over different forecast horizons. Existing studies either lacked comparisons to benchmarks, lacked multi-step-ahead forecasts, or did not use a large enough data set for statistically significant conclusions.</description>
     </item>
     
@@ -43,8 +43,8 @@ No empirical conclusion existed on what the most accurate model(s) were for fore
       
       <guid>https://ruankie.github.io/projects/soil-resistivity-prediction/</guid>
       <description>Soil Resistivity Prediction in South Africa: Using Decision Trees for Improving The Design Process of Overhead Power Line Tower Earth Electrodes
- Read the full report here.
- Project Overview Soil resistivity measurements are required for the earth electrode design of many structures like telecommunication towers, photovoltaic power plants, and overhead power lines to comply with design standards. For long lines of high voltage overhead power lines, this may require the laborious task of soil resistivity measurement at every tower site as well as a multistep iterative design and construction process.</description>
+Read the full report here.
+Project Overview Soil resistivity measurements are required for the earth electrode design of many structures like telecommunication towers, photovoltaic power plants, and overhead power lines to comply with design standards. For long lines of high voltage overhead power lines, this may require the laborious task of soil resistivity measurement at every tower site as well as a multistep iterative design and construction process.</description>
     </item>
     
   </channel>
