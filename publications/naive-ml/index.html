@@ -103,12 +103,14 @@
 
             <span class="nav-icons-divider"></span>
             <div class="nav-link dark-theme-toggle">
+                <span id="dark-theme-toggle-screen-reader-target" class="sr-only"></span>
                 <a>
                     <span id="theme-toggle-icon" data-feather="moon"></span>
                 </a>
             </div>
 
             <div class="nav-link" id="hamburger-menu-toggle">
+                <span id="hamburger-menu-toggle-screen-reader-target" class="sr-only">menu</span>
                 <a>
                     <span data-feather="menu"></span>
                 </a>
@@ -142,6 +144,7 @@
                 </li>
                 
                 <li class="nav-item dark-theme-toggle">
+                    <span id="dark-theme-toggle-screen-reader-target" class="sr-only">theme</span>
                     <a>
                         <span id="theme-toggle-icon" data-feather="moon"></span>
                     </a>
@@ -181,6 +184,10 @@
 <p>I came across this problem when comparing the stock forecasting performance of various ML models to each other. After selecting the top-performing models, I made a quick comparison to a Naive benchmark model as a sanity check (the Naive model just uses the current price as a forecast for the next time step so it&rsquo;s not an &ldquo;intelligent&rdquo; model that learns anything from historical data). After some investigation, I found that some of these ML models learned the Naive forecasting strategy, which left me with a couple of fancy-looking models that are no more useful than a toddler saying tomorrow&rsquo;s price will be the same as today&rsquo;s price. I fell into what I call the naive trap. If you want to avoid falling into the same trap, read on (<a href="https://medium.com/@ruankie/on-the-naivety-of-ml-models-and-how-to-avoid-the-naive-trap-aca90f5924e0">here</a>)&hellip;</p>
 
         </p>
+    </div>
+
+    <div class="prev-next">
+        
     </div>
 </div>
 

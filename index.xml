@@ -58,6 +58,18 @@ No empirical conclusion existed on what the most accurate model(s) were for fore
     </item>
     
     <item>
+      <title>poly2pascal</title>
+      <link>https://ruankie.github.io/projects/poly-2-pascal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ruankie.github.io/projects/poly-2-pascal/</guid>
+      <description>Description Convert POLYGON bounding boxes from .csv files to .xml annotation files in the Pascal VOC format for computer vision projects. Read the package documentation here.
+Installation Install poly2pascal with pip
+pip install poly2pascal Usage See the example notebook for more details. Here are the essentials of how to use this package:
+# import annotator from poly2pascal.annotations import XMLAnnotator # create annotator xmla = XMLAnnotator( images_path=&amp;#34;path/to/images&amp;#34;, csv_file_path=&amp;#34;path/to/csv/file.csv&amp;#34;, image_name_col=&amp;#34;&amp;lt;image_name_column&amp;gt;&amp;#34;, image_label_col=&amp;#34;&amp;lt;object_label_column&amp;gt;&amp;#34;, xml_output_path=&amp;#34;path/to/xml/annotation/output&amp;#34; ) # create xml annotation files in Pascal VOC format xmla.</description>
+    </item>
+    
+    <item>
       <title>Soil Resistivity Prediction</title>
       <link>https://ruankie.github.io/projects/soil-resistivity-prediction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

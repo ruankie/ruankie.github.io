@@ -103,12 +103,14 @@
 
             <span class="nav-icons-divider"></span>
             <div class="nav-link dark-theme-toggle">
+                <span id="dark-theme-toggle-screen-reader-target" class="sr-only"></span>
                 <a>
                     <span id="theme-toggle-icon" data-feather="moon"></span>
                 </a>
             </div>
 
             <div class="nav-link" id="hamburger-menu-toggle">
+                <span id="hamburger-menu-toggle-screen-reader-target" class="sr-only">menu</span>
                 <a>
                     <span data-feather="menu"></span>
                 </a>
@@ -142,6 +144,7 @@
                 </li>
                 
                 <li class="nav-item dark-theme-toggle">
+                    <span id="dark-theme-toggle-screen-reader-target" class="sr-only">theme</span>
                     <a>
                         <span id="theme-toggle-icon" data-feather="moon"></span>
                     </a>
@@ -169,7 +172,7 @@ data sets while still preserving the privacy of the data set
 participants. For verification purposes, the relative errors produced in answering these range queries were compared to those obtained from Zhang et
 al. (2016) using the same algorithms on the same data sets.</p>
 <h2 id="interactive-web-app">Interactive Web-App</h2>
-<p>Use the <a href="https://private-range-queries.herokuapp.com/">interactive web-app</a> to see how 
+<p>Use the <a href="https://private-range-queries.herokuapp.com/">interactive web-app</a> to see how
 different algorithms spatially decompose 2D geospatial data
 to answer range queries that satisfy differential privacy.</p>
 <h2 id="details-of-study">Details of Study</h2>
@@ -189,7 +192,7 @@ followed, and the results that were obtained.</p>
 <ul>
 <li>J. Zhang, X. Xiaokui, and X. Xing, &lsquo;&lsquo;Privtree: A differentially private algorithm for hierarchical decompositions,&rsquo;&rsquo;
 In Proceedings of the 2016 International Conference on Management of Data, 2016, pp. 155-170.</li>
-<li>W. Qardaji, W. Yang and N. Li, &lsquo;&lsquo;Differentially private grids for geospatial data,&rsquo;&rsquo; 
+<li>W. Qardaji, W. Yang and N. Li, &lsquo;&lsquo;Differentially private grids for geospatial data,&rsquo;&rsquo;
 2013 IEEE 29th International Conference on Data Engineering (ICDE), Brisbane, QLD, 2013, pp. 757-768, doi: 10.1109/ICDE.2013.6544872.</li>
 <li>G. Cormode, C. Procopiuc, D. Srivastava, E. Shen and T. Yu, &lsquo;&lsquo;Differentially
 Private Spatial Decompositions,&rsquo;&rsquo; 2012 IEEE 28th International
