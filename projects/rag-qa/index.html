@@ -17,25 +17,25 @@
     
 
     
-    <title>Tags</title>
+    <title>RAG QA</title>
     <meta name="description" content="Data Scientist">
     <meta name="keywords" content='blog, gokarna, hugo, resume'>
 
-    <meta property="og:url" content="https://ruankie.github.io/tags/">
+    <meta property="og:url" content="https://ruankie.github.io/projects/rag-qa/">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Tags">
+    <meta property="og:title" content="RAG QA">
     <meta property="og:description" content="Data Scientist">
     <meta property="og:image" content="/images/avatar-500.png">
 
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Tags">
+    <meta name="twitter:title" content="RAG QA">
     <meta name="twitter:description" content="Data Scientist">
-    <meta property="twitter:domain" content="https://ruankie.github.io/tags/">
-    <meta property="twitter:url" content="https://ruankie.github.io/tags/">
+    <meta property="twitter:domain" content="https://ruankie.github.io/projects/rag-qa/">
+    <meta property="twitter:url" content="https://ruankie.github.io/projects/rag-qa/">
     <meta name="twitter:image" content="/images/avatar-500.png">
 
     
-    <link rel="canonical" href="https://ruankie.github.io/tags/" />
+    <link rel="canonical" href="https://ruankie.github.io/projects/rag-qa/" />
 
     <link rel="stylesheet" type="text/css" href="https://ruankie.github.io//css/normalize.min.css" media="print" onload="this.media='all'">
     <link rel="stylesheet" type="text/css" href="https://ruankie.github.io//css/main.css">
@@ -152,56 +152,39 @@
     </nav>
 </header>
 <main id="content">
-<div class="container tags-list">
+    
 
-    <h1 class="list-title">Tags</h1>
-    <ul class="post-tags">
-        
-        <li class="post-tag">
-            <a href="https://ruankie.github.io//tags/machine-learning/">
-                <div class="tag-name">machine-learning</div>
-                <div class="tag-posts-count">2</div>
-            </a>
-        </li>
-        
-        <li class="post-tag">
-            <a href="https://ruankie.github.io//tags/stocks/">
-                <div class="tag-name">stocks</div>
-                <div class="tag-posts-count">2</div>
-            </a>
-        </li>
-        
-        <li class="post-tag">
-            <a href="https://ruankie.github.io//tags/deep-learning/">
-                <div class="tag-name">deep-learning</div>
-                <div class="tag-posts-count">1</div>
-            </a>
-        </li>
-        
-        <li class="post-tag">
-            <a href="https://ruankie.github.io//tags/forecast/">
-                <div class="tag-name">forecast</div>
-                <div class="tag-posts-count">1</div>
-            </a>
-        </li>
-        
-        <li class="post-tag">
-            <a href="https://ruankie.github.io//tags/portfolio-management/">
-                <div class="tag-name">portfolio-management</div>
-                <div class="tag-posts-count">1</div>
-            </a>
-        </li>
-        
-        <li class="post-tag">
-            <a href="https://ruankie.github.io//tags/reinforcement-learning/">
-                <div class="tag-name">reinforcement-learning</div>
-                <div class="tag-posts-count">1</div>
-            </a>
-        </li>
-        
-    </ul>
+    <div class="post container">
 
+    <div class="post-header-section">
+        <h1>RAG QA</h1>
+    </div>
+
+    <div class="post-content">
+        <p>
+            <p><a href="https://github.com/ruankie/rag-qa"><img src="https://gh-card.dev/repos/ruankie/rag-qa.svg?fullname=" alt="ruankie/ecrivai - GitHub"></a></p>
+<h2 id="description">Description</h2>
+<p>RAG-QA is a free, containerised question-answer framework that allows you to ask questions to your documents in an intuitive way.</p>
+<p>This app uses a method called retrieval augmented generation (RAG) to retrieve information that is relevant to your question from your uploaded document. It then uses a large language model (LLM) to answer the question with the retrieved context.</p>
+<p>The current implementation uses the following components:</p>
+<ul>
+<li><strong>LLM:</strong> <a href="https://ai.google.dev/">Google Gemini Pro</a></li>
+<li><strong>Embedding Model:</strong> <a href="https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2">all-MiniLM-L6-v2</a></li>
+<li><strong>Vector Database:</strong> <a href="https://www.trychroma.com/">Chroma DB</a></li>
+<li><strong>Frontend:</strong> <a href="https://streamlit.io/">Streamlit</a></li>
+<li><strong>Backend:</strong> <a href="https://fastapi.tiangolo.com/">FastAPI</a></li>
+</ul>
+<h2 id="demo">Demo</h2>
+<blockquote>
+<p>This demo shows the app answering a question related to Alphabet Inc&rsquo;s Q3 financial result from 2023. Notice the app frontend is shown on the left; the logs are shown on the upper right; the PDF report is shown on the bottom left.</p>
+</blockquote>
+<p><img src="https://github.com/ruankie/rag-qa/blob/main/assets/demo.gif?raw=true" alt="demo"></p>
+
+        </p>
+    </div>
 </div>
+
+
 
         </main><footer class="footer">
     <span>&copy; 2024 Ruan Pretorius</span>

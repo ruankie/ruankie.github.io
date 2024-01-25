@@ -60,6 +60,18 @@ pip install poly2pascal Usage See the example notebook for more details. Here ar
     </item>
     
     <item>
+      <title>RAG QA</title>
+      <link>https://ruankie.github.io/projects/rag-qa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ruankie.github.io/projects/rag-qa/</guid>
+      <description>Description RAG-QA is a free, containerised question-answer framework that allows you to ask questions to your documents in an intuitive way.
+This app uses a method called retrieval augmented generation (RAG) to retrieve information that is relevant to your question from your uploaded document. It then uses a large language model (LLM) to answer the question with the retrieved context.
+The current implementation uses the following components:
+LLM: Google Gemini Pro Embedding Model: all-MiniLM-L6-v2 Vector Database: Chroma DB Frontend: Streamlit Backend: FastAPI Demo This demo shows the app answering a question related to Alphabet Inc&amp;rsquo;s Q3 financial result from 2023.</description>
+    </item>
+    
+    <item>
       <title>Soil Resistivity Prediction</title>
       <link>https://ruankie.github.io/projects/soil-resistivity-prediction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

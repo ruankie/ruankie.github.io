@@ -170,7 +170,7 @@
 <p>EcrivAI is a fully automated blog writer that uses LangChain and GPT type LLMs (similar to ChatGPT) for topic selection and content generation. The output is published to <a href="https://ruankie.github.io/ecrivai-blog-hugo/">this blog</a></p>
 <h2 id="how-ecrivai-works">How EcrivAI works</h2>
 <p>Every day, a cron job triggers a GitHub Actions workflow that runs EcrivAI.
-EcrivAI uses <code>text-davinci-003</code> through OpenAI’s API to do all the creative work. There are two main tasks: topic selection and content generation. These tasks are strung together using <a href="https://docs.langchain.com/docs/">LangChain</a>.</p>
+EcrivAI uses Google&rsquo;s Gemini Pro to do all the creative work. There are two main tasks: topic selection and content generation. These tasks are strung together using <a href="https://docs.langchain.com/docs/">LangChain</a>.</p>
 <p>After selecting a topic and generating a blog post on that topic, EcrivAI saves the
 post to a Markdown file and commits it to a GitHub repository.
 The blog <a href="https://github.com/ruankie/ecrivai-blog-hugo">website generator</a> then uses <a href="https://gohugo.io/">Hugo</a>, a static site generator, to build a blog website from the Markdown files.
@@ -187,7 +187,7 @@ The blog website is hosted on <a href="https://ruankie.github.io/ecrivai-blog-hu
 
 
         </main><footer class="footer">
-    <span>&copy; 2023 Ruan Pretorius</span>
+    <span>&copy; 2024 Ruan Pretorius</span>
     <span>
         Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/526avijitgupta/gokarna">Gokarna</a>
     </span>
