@@ -6,27 +6,62 @@
     <description>Recent content in Tags on Ruan Pretorius</description>
     <generator>Hugo 0.125.2</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 16 Apr 2022 23:39:49 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 03 Oct 2024 12:00:00 +0200</lastBuildDate>
     <atom:link href="https://ruankie.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Forecast</title>
-      <link>https://ruankie.github.io/tags/forecast/</link>
+      <title>AI Engineering</title>
+      <link>https://ruankie.github.io/tags/ai-engineering/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ruankie.github.io/tags/forecast/</guid>
+      <guid>https://ruankie.github.io/tags/ai-engineering/</guid>
       <description></description>
     </item>
     <item>
-      <title>Machine Learning</title>
-      <link>https://ruankie.github.io/tags/machine-learning/</link>
+      <title>Data Science</title>
+      <link>https://ruankie.github.io/tags/data-science/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ruankie.github.io/tags/machine-learning/</guid>
+      <guid>https://ruankie.github.io/tags/data-science/</guid>
       <description></description>
     </item>
     <item>
-      <title>Stocks</title>
-      <link>https://ruankie.github.io/tags/stocks/</link>
+      <title>GenAI</title>
+      <link>https://ruankie.github.io/tags/genai/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ruankie.github.io/tags/stocks/</guid>
+      <guid>https://ruankie.github.io/tags/genai/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Python</title>
+      <link>https://ruankie.github.io/tags/python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ruankie.github.io/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Talks</title>
+      <link>https://ruankie.github.io/tags/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ruankie.github.io/tags/talks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Data Engineering</title>
+      <link>https://ruankie.github.io/tags/data-engineering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ruankie.github.io/tags/data-engineering/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Synthetic Data</title>
+      <link>https://ruankie.github.io/tags/synthetic-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ruankie.github.io/tags/synthetic-data/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Blogs</title>
+      <link>https://ruankie.github.io/tags/blogs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ruankie.github.io/tags/blogs/</guid>
       <description></description>
     </item>
     <item>
@@ -37,10 +72,38 @@
       <description></description>
     </item>
     <item>
+      <title>Forecasting</title>
+      <link>https://ruankie.github.io/tags/forecasting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ruankie.github.io/tags/forecasting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Machine Learning</title>
+      <link>https://ruankie.github.io/tags/machine-learning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ruankie.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>Portfolio Management</title>
       <link>https://ruankie.github.io/tags/portfolio-management/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://ruankie.github.io/tags/portfolio-management/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stocks</title>
+      <link>https://ruankie.github.io/tags/stocks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ruankie.github.io/tags/stocks/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Papers</title>
+      <link>https://ruankie.github.io/tags/papers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ruankie.github.io/tags/papers/</guid>
       <description></description>
     </item>
     <item>

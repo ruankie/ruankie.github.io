@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>PyConZA: Monitoring and Evaluating LLM Apps with Langfuse</title>
+    <meta name="description" content="Data Scientist | AI Engineer">
+    <meta name="keywords" content='blog, gokarna, hugo, resume, Python, AI Engineering, Data Science, GenAI, Talks'>
+
+    <meta property="og:url" content="https://ruankie.github.io/publications/pyconza-24/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="PyConZA: Monitoring and Evaluating LLM Apps with Langfuse">
+    <meta property="og:description" content="Data Scientist | AI Engineer">
+    <meta property="og:image" content="/images/avatar-500.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="PyConZA: Monitoring and Evaluating LLM Apps with Langfuse">
+    <meta name="twitter:description" content="Data Scientist | AI Engineer">
+    <meta property="twitter:domain" content="https://ruankie.github.io/publications/pyconza-24/">
+    <meta property="twitter:url" content="https://ruankie.github.io/publications/pyconza-24/">
+    <meta name="twitter:image" content="/images/avatar-500.png">
+
+    
+    <link rel="canonical" href="https://ruankie.github.io/publications/pyconza-24/" />
+
+    <link rel="stylesheet" type="text/css" href="https://ruankie.github.io//css/normalize.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" type="text/css" href="https://ruankie.github.io//css/main.css">
+    <link disabled id="dark-theme" rel="stylesheet" href="https://ruankie.github.io//css/dark.css">
+
+    <script src="https://ruankie.github.io//js/svg-injector.min.js"></script>
+    <script src="https://ruankie.github.io//js/feather-icons.min.js"></script>
+    <script src="https://ruankie.github.io//js/main.js"></script>
+
+    
+    
+        <!-- KaTeX -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.16/dist/katex.min.css" integrity="sha384-6LkG2wmY8FK9E0vU9OOr8UvLwsaqUg9SETfpq4uTCN1agNe8HRdE9ABlk+fVx6gZ" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.16/dist/katex.min.js" integrity="sha384-31El76TwmbHj4rF9DyLsygbq6xoIobG0W+jqXim+a3dU9W53tdH3A/ngRPxOzzaB" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.16/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+  
+    
+</head>
+<body>
+        <script type="text/javascript">
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="https://ruankie.github.io/">
+                <img src="https://ruankie.github.io//images/avatar-500.png" alt="avatar" />
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://ruankie.github.io/">Ruan Pretorius</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://ruankie.github.io/"><span data-feather='home'></span> Home </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://ruankie.github.io/about/"><span data-feather='user'></span> About </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://ruankie.github.io/projects/"><span data-feather='code'></span> Projects </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://ruankie.github.io/publications/"><span data-feather='book'></span> Content </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://ruankie.github.io/certifications/"><span data-feather='award'></span> Certifications </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <a>
+                    <span id="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://ruankie.github.io/"><span data-feather='home'></span> Home </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://ruankie.github.io/about/"><span data-feather='user'></span> About </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://ruankie.github.io/projects/"><span data-feather='code'></span> Projects </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://ruankie.github.io/publications/"><span data-feather='book'></span> Content </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://ruankie.github.io/certifications/"><span data-feather='award'></span> Certifications </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <a>
+                        <span id="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    <div class="post container">
+
+    <div class="post-header-section">
+        <h1>PyConZA: Monitoring and Evaluating LLM Apps with Langfuse</h1>
+        <small role="doc-subtitle"></small>
+        <p class="post-date">
+            October 3, 2024
+        </p>
+
+        <ul class="post-tags">
+        
+            <li class="post-tag"><a href="https://ruankie.github.io/tags/python">Python</a></li>
+        
+            <li class="post-tag"><a href="https://ruankie.github.io/tags/ai-engineering">AI Engineering</a></li>
+        
+            <li class="post-tag"><a href="https://ruankie.github.io/tags/data-science">Data Science</a></li>
+        
+            <li class="post-tag"><a href="https://ruankie.github.io/tags/genai">GenAI</a></li>
+        
+            <li class="post-tag"><a href="https://ruankie.github.io/tags/talks">Talks</a></li>
+        
+        </ul>
+    </div>
+
+    <div class="post-content">
+        <p>
+            <h2 id="links">Links</h2>
+<ul>
+<li>📦 <a href="https://github.com/ruankie/langfuse-monitoring-eval">Repository</a></li>
+<li>📊 <a href="https://github.com/ruankie/langfuse-monitoring-eval/blob/main/slides/slides.pdf">Slides</a></li>
+</ul>
+<h2 id="abstract">Abstract</h2>
+<p>In the rapidly evolving landscape of AI, the ability to quickly iterate on prototypes and ensure robust performance of apps built around language models is crucial for developers and data scientists. This talk focuses on leveraging free and open-source tools to build, monitor, and evaluate LLM applications, providing a cost-effective approach to rapid development and deployment within the Python ecosystem.</p>
+<h3 id="topics-covered">Topics Covered</h3>
+<ul>
+<li>Setting up local LLMs for fast prototyping
+<ul>
+<li>Using Ollama for easy setup and deployment on local machines</li>
+<li>Running LLMs locally to build and test prototypes without incurring costs</li>
+</ul>
+</li>
+<li>Monitoring LLM apps with Langfuse
+<ul>
+<li>Introduction to Langfuse, an open-source LLM engineering platform</li>
+<li>Configuring Langfuse for tracing and evaluation</li>
+<li>Implementing Langfuse&rsquo;s Python decorator and SDK for detailed monitoring</li>
+</ul>
+</li>
+<li>LLM-assisted evaluation
+<ul>
+<li>Using Langfuse to set up evaluation datasets and scoring responses of your LLM app</li>
+</ul>
+</li>
+</ul>
+<h3 id="target-audience-and-takeaways">Target Audience and Takeaways</h3>
+<p>This talk is aimed at developers and data scientists who are interested in monitoring and optimising their LLM applications. By the end of the session, attendees will have a better understanding of how to set up and monitor their LLM apps using Langfuse, as well as how to leverage local LLMs for rapid prototyping and evaluation. They will walk away with actionable insights and practical knowledge to enhance their workflows, making their AI solutions more efficient and reliable.</p>
+
+        </p>
+    </div>
+</div>
+
+
+
+    
+
+        </main><footer class="footer">
+    <span>&copy; 2024 Ruan Pretorius</span>
+    <span>
+        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/526avijitgupta/gokarna">Gokarna</a>
+    </span>
+</footer>
+</body>
+</html>

@@ -18,21 +18,21 @@
 
     
     <title>On the naivety of ML models and how to avoid the naive trap</title>
-    <meta name="description" content="Data Scientist">
-    <meta name="keywords" content='blog, gokarna, hugo, resume, Machine Learning, Stocks, Forecast'>
+    <meta name="description" content="Data Scientist | AI Engineer">
+    <meta name="keywords" content='blog, gokarna, hugo, resume, Machine Learning, Stocks, Forecasting, Deep Learning, Portfolio Management, Blogs'>
 
     <meta property="og:url" content="https://ruankie.github.io/publications/naive-ml/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="On the naivety of ML models and how to avoid the naive trap">
-    <meta property="og:description" content="Data Scientist">
-    <meta property="og:image" content="/images/lorem-ipsum/quick-fox.png">
+    <meta property="og:description" content="Data Scientist | AI Engineer">
+    <meta property="og:image" content="/images/avatar-500.png">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="On the naivety of ML models and how to avoid the naive trap">
-    <meta name="twitter:description" content="Data Scientist">
+    <meta name="twitter:description" content="Data Scientist | AI Engineer">
     <meta property="twitter:domain" content="https://ruankie.github.io/publications/naive-ml/">
     <meta property="twitter:url" content="https://ruankie.github.io/publications/naive-ml/">
-    <meta name="twitter:image" content="/images/lorem-ipsum/quick-fox.png">
+    <meta name="twitter:image" content="/images/avatar-500.png">
 
     
     <link rel="canonical" href="https://ruankie.github.io/publications/naive-ml/" />
@@ -77,27 +77,23 @@
         <div class="nav-links">
             
             <div class="nav-link">
-                <a href="https://ruankie.github.io/"> Home </a>
+                <a href="https://ruankie.github.io/"><span data-feather='home'></span> Home </a>
             </div>
             
             <div class="nav-link">
-                <a href="https://ruankie.github.io/about/"> About </a>
+                <a href="https://ruankie.github.io/about/"><span data-feather='user'></span> About </a>
             </div>
             
             <div class="nav-link">
-                <a href="https://ruankie.github.io/projects/"> Projects </a>
+                <a href="https://ruankie.github.io/projects/"><span data-feather='code'></span> Projects </a>
             </div>
             
             <div class="nav-link">
-                <a href="https://ruankie.github.io/publications/"> Publications </a>
+                <a href="https://ruankie.github.io/publications/"><span data-feather='book'></span> Content </a>
             </div>
             
             <div class="nav-link">
-                <a href="https://ruankie.github.io/certifications/"> Certifications </a>
-            </div>
-            
-            <div class="nav-link">
-                <a href="https://ko-fi.com/N4N6D8Q0K"><span data-feather='coffee'></span>  </a>
+                <a href="https://ruankie.github.io/certifications/"><span data-feather='award'></span> Certifications </a>
             </div>
             
 
@@ -118,27 +114,23 @@
             <ul class="nav-hamburger-list visibility-hidden">
                 
                 <li class="nav-item">
-                    <a href="https://ruankie.github.io/"> Home </a>
+                    <a href="https://ruankie.github.io/"><span data-feather='home'></span> Home </a>
                 </li>
                 
                 <li class="nav-item">
-                    <a href="https://ruankie.github.io/about/"> About </a>
+                    <a href="https://ruankie.github.io/about/"><span data-feather='user'></span> About </a>
                 </li>
                 
                 <li class="nav-item">
-                    <a href="https://ruankie.github.io/projects/"> Projects </a>
+                    <a href="https://ruankie.github.io/projects/"><span data-feather='code'></span> Projects </a>
                 </li>
                 
                 <li class="nav-item">
-                    <a href="https://ruankie.github.io/publications/"> Publications </a>
+                    <a href="https://ruankie.github.io/publications/"><span data-feather='book'></span> Content </a>
                 </li>
                 
                 <li class="nav-item">
-                    <a href="https://ruankie.github.io/certifications/"> Certifications </a>
-                </li>
-                
-                <li class="nav-item">
-                    <a href="https://ko-fi.com/N4N6D8Q0K"><span data-feather='coffee'></span>  </a>
+                    <a href="https://ruankie.github.io/certifications/"><span data-feather='award'></span> Certifications </a>
                 </li>
                 
                 <li class="nav-item dark-theme-toggle">
@@ -167,7 +159,13 @@
         
             <li class="post-tag"><a href="https://ruankie.github.io/tags/stocks">Stocks</a></li>
         
-            <li class="post-tag"><a href="https://ruankie.github.io/tags/forecast">Forecast</a></li>
+            <li class="post-tag"><a href="https://ruankie.github.io/tags/forecasting">Forecasting</a></li>
+        
+            <li class="post-tag"><a href="https://ruankie.github.io/tags/deep-learning">Deep Learning</a></li>
+        
+            <li class="post-tag"><a href="https://ruankie.github.io/tags/portfolio-management">Portfolio Management</a></li>
+        
+            <li class="post-tag"><a href="https://ruankie.github.io/tags/blogs">Blogs</a></li>
         
         </ul>
     </div>
@@ -177,7 +175,7 @@
             <blockquote>
 <p>See original article <a href="https://medium.com/@ruankie/on-the-naivety-of-ml-models-and-how-to-avoid-the-naive-trap-aca90f5924e0">here</a></p>
 </blockquote>
-<h1 id="the-naivetrap">The naive trap</h1>
+<h2 id="the-naivetrap">The naive trap</h2>
 <p>When forecasting stock price movements with fancy ML models, you want your models to learn something useful from the provided data that humans might not be aware of so you have a competitive edge. This article will show you examples of where those fancy ML models learn something dumb that looks intelligent and how to check if your models are doing the same.</p>
 <p>I came across this problem when comparing the stock forecasting performance of various ML models to each other. After selecting the top-performing models, I made a quick comparison to a Naive benchmark model as a sanity check (the Naive model just uses the current price as a forecast for the next time step so it&rsquo;s not an &ldquo;intelligent&rdquo; model that learns anything from historical data). After some investigation, I found that some of these ML models learned the Naive forecasting strategy, which left me with a couple of fancy-looking models that are no more useful than a toddler saying tomorrow&rsquo;s price will be the same as today&rsquo;s price. I fell into what I call the naive trap. If you want to avoid falling into the same trap, read on (<a href="https://medium.com/@ruankie/on-the-naivety-of-ml-models-and-how-to-avoid-the-naive-trap-aca90f5924e0">here</a>)&hellip;</p>
 

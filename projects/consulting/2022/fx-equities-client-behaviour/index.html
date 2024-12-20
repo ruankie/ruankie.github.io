@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        :root {
+            --accent-color: #FF4D4D;
+        }
+    </style>
+
+    
+    
+    
+    
+    
+    
+
+    
+    <title>FX/Equities Forecasting | Client Behaviour Modelling</title>
+    <meta name="description" content="Data Scientist | AI Engineer">
+    <meta name="keywords" content='blog, gokarna, hugo, resume'>
+
+    <meta property="og:url" content="https://ruankie.github.io/projects/consulting/2022/fx-equities-client-behaviour/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="FX/Equities Forecasting | Client Behaviour Modelling">
+    <meta property="og:description" content="Data Scientist | AI Engineer">
+    <meta property="og:image" content="/images/avatar-500.png">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FX/Equities Forecasting | Client Behaviour Modelling">
+    <meta name="twitter:description" content="Data Scientist | AI Engineer">
+    <meta property="twitter:domain" content="https://ruankie.github.io/projects/consulting/2022/fx-equities-client-behaviour/">
+    <meta property="twitter:url" content="https://ruankie.github.io/projects/consulting/2022/fx-equities-client-behaviour/">
+    <meta name="twitter:image" content="/images/avatar-500.png">
+
+    
+    <link rel="canonical" href="https://ruankie.github.io/projects/consulting/2022/fx-equities-client-behaviour/" />
+
+    <link rel="stylesheet" type="text/css" href="https://ruankie.github.io//css/normalize.min.css" media="print" onload="this.media='all'">
+    <link rel="stylesheet" type="text/css" href="https://ruankie.github.io//css/main.css">
+    <link disabled id="dark-theme" rel="stylesheet" href="https://ruankie.github.io//css/dark.css">
+
+    <script src="https://ruankie.github.io//js/svg-injector.min.js"></script>
+    <script src="https://ruankie.github.io//js/feather-icons.min.js"></script>
+    <script src="https://ruankie.github.io//js/main.js"></script>
+
+    
+    
+        <!-- KaTeX -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.16/dist/katex.min.css" integrity="sha384-6LkG2wmY8FK9E0vU9OOr8UvLwsaqUg9SETfpq4uTCN1agNe8HRdE9ABlk+fVx6gZ" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.16/dist/katex.min.js" integrity="sha384-31El76TwmbHj4rF9DyLsygbq6xoIobG0W+jqXim+a3dU9W53tdH3A/ngRPxOzzaB" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.16/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);"></script>
+  
+    
+</head>
+<body>
+        <script type="text/javascript">
+            
+            setThemeByUserPref();
+        </script><header class="header">
+    <nav class="header-nav">
+
+        
+        <div class="avatar">
+            <a href="https://ruankie.github.io/">
+                <img src="https://ruankie.github.io//images/avatar-500.png" alt="avatar" />
+            </a>
+        </div>
+        
+
+        <div class="nav-title">
+            <a class="nav-brand" href="https://ruankie.github.io/">Ruan Pretorius</a>
+        </div>
+
+        <div class="nav-links">
+            
+            <div class="nav-link">
+                <a href="https://ruankie.github.io/"><span data-feather='home'></span> Home </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://ruankie.github.io/about/"><span data-feather='user'></span> About </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://ruankie.github.io/projects/"><span data-feather='code'></span> Projects </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://ruankie.github.io/publications/"><span data-feather='book'></span> Content </a>
+            </div>
+            
+            <div class="nav-link">
+                <a href="https://ruankie.github.io/certifications/"><span data-feather='award'></span> Certifications </a>
+            </div>
+            
+
+            <span class="nav-icons-divider"></span>
+            <div class="nav-link dark-theme-toggle">
+                <a>
+                    <span id="theme-toggle-icon" data-feather="moon"></span>
+                </a>
+            </div>
+
+            <div class="nav-link" id="hamburger-menu-toggle">
+                <a>
+                    <span data-feather="menu"></span>
+                </a>
+            </div>
+
+            
+            <ul class="nav-hamburger-list visibility-hidden">
+                
+                <li class="nav-item">
+                    <a href="https://ruankie.github.io/"><span data-feather='home'></span> Home </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://ruankie.github.io/about/"><span data-feather='user'></span> About </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://ruankie.github.io/projects/"><span data-feather='code'></span> Projects </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://ruankie.github.io/publications/"><span data-feather='book'></span> Content </a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="https://ruankie.github.io/certifications/"><span data-feather='award'></span> Certifications </a>
+                </li>
+                
+                <li class="nav-item dark-theme-toggle">
+                    <a>
+                        <span id="theme-toggle-icon" data-feather="moon"></span>
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
+</header>
+<main id="content">
+    
+
+    <div class="post container">
+
+    <div class="post-header-section">
+        <h1>FX/Equities Forecasting | Client Behaviour Modelling</h1>
+    </div>
+
+    <div class="post-content">
+        <p>
+            <blockquote>
+<p><strong>Date</strong>: Jan 2022 - Feb 2023</p>
+<p><strong>Roles</strong>: Data Scientist, Data Engineer</p>
+<p>This project was completed while I was a consultant at Melio AI, and some of the project details have been obfuscated.</p>
+</blockquote>
+<h2 id="overview">Overview</h2>
+<p>Worked on various machine learning forecasting projects, data engineering ETL pipelines, and visualization dashboards, along with general software engineering in Python.</p>
+<h2 id="my-responsibilities">My Responsibilities</h2>
+<ul>
+<li><strong>Equities and FX price forecasting</strong>:
+<ul>
+<li>Reviewed existing implementation of ML models.</li>
+<li>Investigated forecasting accuracy of statistical and ML models (ARIMA, MLP, LSTM, RNN) using sentiment and historical price data.</li>
+<li>Benchmarked ML model forecasts to simple models.</li>
+<li>Built Flask API to allow traders to query models and integrate forecasts into their workflows.</li>
+</ul>
+</li>
+<li><strong>FX price formation</strong>:
+<ul>
+<li>Investigated USD/ZAR price formation to balance inventory depletion and profit maximization.</li>
+<li>Implemented features of price formation models into production using containers and streaming data.</li>
+<li>Designed and deployed a visualisation dashboard in PowerBI displaying FX rates and metrics.</li>
+</ul>
+</li>
+<li><strong>Client behavior modeling for CRM</strong>:
+<ul>
+<li>Investigated improved methods for modeling client behavior around canceled/unfulfilled FX trades.</li>
+<li>Built an ETL pipeline to process and transform internal data sources into client behavior metrics.</li>
+<li>Created a custom RFM model and client tier ranking system.</li>
+</ul>
+</li>
+<li><strong>Stakeholder communication and knowledge sharing</strong>:
+<ul>
+<li>Communicated designs and experiment results to technical and non-technical stakeholders.</li>
+<li>Documented new features and simplified statistical concepts for better understanding.</li>
+<li>Conducted knowledge-sharing sessions on machine learning and deep learning fundamentals.</li>
+</ul>
+</li>
+</ul>
+<h2 id="outcomesimpact">Outcomes/Impact</h2>
+<ul>
+<li>Reduced costs by eliminating infeasible/inaccurate forecasting models.</li>
+<li>Enabled traders to visualize and utilize FX pricing model outputs effectively.</li>
+<li>Identified areas of intervention with a custom client ranking system to reduce trade cancellations.</li>
+</ul>
+<h2 id="tools-used">Tools Used</h2>
+<ul>
+<li>Python</li>
+<li>TensorFlow</li>
+<li>Scikit Learn</li>
+<li>Flask</li>
+<li>Azure</li>
+<li>PowerBI</li>
+<li>Docker</li>
+</ul>
+
+        </p>
+    </div>
+</div>
+
+
+
+        </main><footer class="footer">
+    <span>&copy; 2024 Ruan Pretorius</span>
+    <span>
+        Made with &#10084;&#65039; using <a target="_blank" href="https://github.com/526avijitgupta/gokarna">Gokarna</a>
+    </span>
+</footer>
+</body>
+</html>

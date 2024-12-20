@@ -6,8 +6,29 @@
     <description>Recent content on Ruan Pretorius</description>
     <generator>Hugo 0.125.2</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 16 Apr 2022 23:39:49 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 03 Oct 2024 12:00:00 +0200</lastBuildDate>
     <atom:link href="https://ruankie.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PyConZA: Monitoring and Evaluating LLM Apps with Langfuse</title>
+      <link>https://ruankie.github.io/publications/pyconza-24/</link>
+      <pubDate>Thu, 03 Oct 2024 12:00:00 +0200</pubDate>
+      <guid>https://ruankie.github.io/publications/pyconza-24/</guid>
+      <description>Links 📦 Repository 📊 Slides Abstract In the rapidly evolving landscape of AI, the ability to quickly iterate on prototypes and ensure robust performance of apps built around language models is crucial for developers and data scientists. This talk focuses on leveraging free and open-source tools to build, monitor, and evaluate LLM applications, providing a cost-effective approach to rapid development and deployment within the Python ecosystem.&#xA;Topics Covered Setting up local LLMs for fast prototyping Using Ollama for easy setup and deployment on local machines Running LLMs locally to build and test prototypes without incurring costs Monitoring LLM apps with Langfuse Introduction to Langfuse, an open-source LLM engineering platform Configuring Langfuse for tracing and evaluation Implementing Langfuse&amp;rsquo;s Python decorator and SDK for detailed monitoring LLM-assisted evaluation Using Langfuse to set up evaluation datasets and scoring responses of your LLM app Target Audience and Takeaways This talk is aimed at developers and data scientists who are interested in monitoring and optimising their LLM applications.</description>
+    </item>
+    <item>
+      <title>PyData Global: How to build a data pipeline without data</title>
+      <link>https://ruankie.github.io/publications/pydata-23/</link>
+      <pubDate>Wed, 06 Dec 2023 16:00:00 +0200</pubDate>
+      <guid>https://ruankie.github.io/publications/pydata-23/</guid>
+      <description>Links 📦 Repository 📊 Slides Abstract Data pipelines are essential for transforming, validating, and loading data from various sources into a target database or data warehouse. However, building and testing data pipelines can be challenging when the real data is not available, either due to privacy issues, technical limitations, or simply because the data is not yet collected. How can we ensure that our data pipelines are robust and reliable without having access to the actual data?</description>
+    </item>
+    <item>
+      <title>PyConZA: How to build a data pipeline without data</title>
+      <link>https://ruankie.github.io/publications/pyconza-23/</link>
+      <pubDate>Thu, 05 Oct 2023 11:00:00 +0200</pubDate>
+      <guid>https://ruankie.github.io/publications/pyconza-23/</guid>
+      <description>Links 📦 Repository 📊 Slides Abstract Data pipelines are essential for transforming, validating, and loading data from various sources into a target database or data warehouse. However, building and testing data pipelines can be challenging when the real data is not available, either due to privacy issues, technical limitations, or simply because the data is not yet collected. How can we ensure that our data pipelines are robust and reliable without having access to the actual data?</description>
+    </item>
     <item>
       <title>On the naivety of ML models and how to avoid the naive trap</title>
       <link>https://ruankie.github.io/publications/naive-ml/</link>
@@ -23,53 +44,95 @@
       <description>See full paper here&#xA;Abstract Traditional portfolio management methods can incorporate specific investor preferences but rely on accurate forecasts of asset returns and covariances. Reinforcement learning (RL) methods do not rely on these explicit forecasts and are better suited for multi-stage decision processes. To address limitations of the evaluated research, experiments were conducted on three markets in different economies with different overall trends. By incorporating specific investor preferences into our RL models’ reward functions, a more comprehensive comparison could be made to traditional methods in risk-return space.</description>
     </item>
     <item>
-      <title>Binary Spam Classifier</title>
-      <link>https://ruankie.github.io/projects/spam-classifier/</link>
+      <title>Automated Regulatory Reporting Pipeline</title>
+      <link>https://ruankie.github.io/projects/consulting/2023/automated-reg-reporting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ruankie.github.io/projects/spam-classifier/</guid>
+      <guid>https://ruankie.github.io/projects/consulting/2023/automated-reg-reporting/</guid>
+      <description>Date: Mar 2023 - Aug 2023&#xA;Roles: Data Scientist, Data Engineer&#xA;This project was completed while I was a consultant at Melio AI, and some of the project details have been obfuscated.&#xA;Overview Developed ETL pipelines and automated data quality monitoring for regulatory reporting to support compliance.&#xA;My Responsibilities Built a data processing pipeline using Apache Airflow and Python to populate financial regulatory reports in Excel sheets from a Postgres SQL database.</description>
+    </item>
+    <item>
+      <title>Binary Spam Classifier</title>
+      <link>https://ruankie.github.io/projects/personal/spam-classifier/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ruankie.github.io/projects/personal/spam-classifier/</guid>
       <description>Natural Language Processing with LSTM in TensorFlow 2 Project Overview This model uses a binary classifier to classify a given message as either spam or ham (not spam). It was created using TensorFlow 2.x and consists of a Long Short Term Memory (LSTM) neural network that is able to capture long-term dependencies in the words that make up a message. This model also uses an embedding layer that encodes words into an abstract 20-dimensional space so that they can be represented as vectors with contextual proximity.</description>
     </item>
     <item>
-      <title>Differentially Private Range Queries</title>
-      <link>https://ruankie.github.io/projects/dp-range-queries/</link>
+      <title>Customer Support Chatbot (Insurance)</title>
+      <link>https://ruankie.github.io/projects/consulting/2024/insurance-chatbot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ruankie.github.io/projects/dp-range-queries/</guid>
+      <guid>https://ruankie.github.io/projects/consulting/2024/insurance-chatbot/</guid>
+      <description>Date: Jul 2024 - Present&#xA;Roles: AI Engineer, Data Scientist, Project Manager&#xA;This project was completed while I was a consultant at Melio AI, and some of the project details have been obfuscated.&#xA;Overview Led the design, implementation, monitoring, evaluation and project management of a of an agentic RAG chatbot system. The chatbot successfully handled user queries, saving human resources and improving operational efficiency.&#xA;My Responsibilities Managed a team of 3 developers and engaged with clients to determine requirements.</description>
+    </item>
+    <item>
+      <title>Differentially Private Range Queries</title>
+      <link>https://ruankie.github.io/projects/personal/dp-range-queries/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ruankie.github.io/projects/personal/dp-range-queries/</guid>
       <description>Overview This study looked at the challenge of producing accurate answers to range queries on two-dimensional geospatial data sets while still preserving the privacy of the data set participants. For verification purposes, the relative errors produced in answering these range queries were compared to those obtained from Zhang et al. (2016) using the same algorithms on the same data sets.&#xA;Interactive Web-App Use the interactive web-app to see how different algorithms spatially decompose 2D geospatial data to answer range queries that satisfy differential privacy.</description>
     </item>
     <item>
       <title>EcrivAI</title>
-      <link>https://ruankie.github.io/projects/ecrivai/</link>
+      <link>https://ruankie.github.io/projects/personal/ecrivai/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ruankie.github.io/projects/ecrivai/</guid>
+      <guid>https://ruankie.github.io/projects/personal/ecrivai/</guid>
       <description>Description Have you ever wanted to write a blog but didn’t have the time or inspiration to do so? Me too. So I made EcrivAI.&#xA;EcrivAI is a fully automated blog writer that uses LangChain and GPT type LLMs (similar to ChatGPT) for topic selection and content generation. The output is published to this blog&#xA;How EcrivAI works Every day, a cron job triggers a GitHub Actions workflow that runs EcrivAI.</description>
     </item>
     <item>
-      <title>Forecasting Stock Market Price Movements</title>
-      <link>https://ruankie.github.io/projects/stock-price-movements/</link>
+      <title>Evaluation Pipeline for MLOps Competition</title>
+      <link>https://ruankie.github.io/projects/consulting/2024/mlops-evaluation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ruankie.github.io/projects/stock-price-movements/</guid>
+      <guid>https://ruankie.github.io/projects/consulting/2024/mlops-evaluation/</guid>
+      <description>Date: Mar 2024 - Sep 2024&#xA;Roles: Data Scientist&#xA;This project was completed while I was a consultant at Melio AI, and some of the project details have been obfuscated.&#xA;Overview Developed and deployed a multidimensional evaluation function for an MLOps Competition as well as creating an example machine translation model that participants could use for inspiration. Inference was done using KubeFlow&amp;rsquo;s Kserve.&#xA;My Responsibilities Designed and implemented a weighted scoring function for evaluating translation accuracy, resource usage, efficiency, and documentation quality.</description>
+    </item>
+    <item>
+      <title>Forecasting Stock Market Price Movements</title>
+      <link>https://ruankie.github.io/projects/personal/stock-price-movements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ruankie.github.io/projects/personal/stock-price-movements/</guid>
       <description>See summary poster here&#xA;Project Overiew Accurate financial time series forecasts can assist investors in gaining a competitive edge over other participants in capital markets. Previous research yielded contradicting results pertaining to the superiority of machine learning (ML) over statistical models in time-series forecasting.&#xA;No empirical conclusion existed on what the most accurate model(s) were for forecasting stock market price movements over different forecast horizons. Existing studies either lacked comparisons to benchmarks, lacked multi-step-ahead forecasts, or did not use a large enough data set for statistically significant conclusions.</description>
     </item>
     <item>
-      <title>poly2pascal</title>
-      <link>https://ruankie.github.io/projects/poly-2-pascal/</link>
+      <title>FX/Equities Forecasting | Client Behaviour Modelling</title>
+      <link>https://ruankie.github.io/projects/consulting/2022/fx-equities-client-behaviour/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ruankie.github.io/projects/poly-2-pascal/</guid>
+      <guid>https://ruankie.github.io/projects/consulting/2022/fx-equities-client-behaviour/</guid>
+      <description>Date: Jan 2022 - Feb 2023&#xA;Roles: Data Scientist, Data Engineer&#xA;This project was completed while I was a consultant at Melio AI, and some of the project details have been obfuscated.&#xA;Overview Worked on various machine learning forecasting projects, data engineering ETL pipelines, and visualization dashboards, along with general software engineering in Python.&#xA;My Responsibilities Equities and FX price forecasting: Reviewed existing implementation of ML models. Investigated forecasting accuracy of statistical and ML models (ARIMA, MLP, LSTM, RNN) using sentiment and historical price data.</description>
+    </item>
+    <item>
+      <title>poly2pascal</title>
+      <link>https://ruankie.github.io/projects/personal/poly-2-pascal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ruankie.github.io/projects/personal/poly-2-pascal/</guid>
       <description>Description Convert POLYGON bounding boxes from .csv files to .xml annotation files in the Pascal VOC format for computer vision projects. Read the package documentation here.&#xA;Installation Install poly2pascal with pip&#xA;pip install poly2pascal Usage See the example notebook for more details. Here are the essentials of how to use this package:&#xA;# import annotator from poly2pascal.annotations import XMLAnnotator # create annotator xmla = XMLAnnotator( images_path=&amp;#34;path/to/images&amp;#34;, csv_file_path=&amp;#34;path/to/csv/file.csv&amp;#34;, image_name_col=&amp;#34;&amp;lt;image_name_column&amp;gt;&amp;#34;, image_label_col=&amp;#34;&amp;lt;object_label_column&amp;gt;&amp;#34;, xml_output_path=&amp;#34;path/to/xml/annotation/output&amp;#34; ) # create xml annotation files in Pascal VOC format xmla.</description>
     </item>
     <item>
-      <title>RAG QA</title>
-      <link>https://ruankie.github.io/projects/rag-qa/</link>
+      <title>Product Recommender System</title>
+      <link>https://ruankie.github.io/projects/consulting/2023/product-recommender-system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ruankie.github.io/projects/rag-qa/</guid>
+      <guid>https://ruankie.github.io/projects/consulting/2023/product-recommender-system/</guid>
+      <description>Date: Jul 2023 - Mar 2024&#xA;Roles: Data Scientist&#xA;This project was completed while I was a consultant at Melio AI, and some of the project details have been obfuscated.&#xA;Overview Designed and tested a product recommender system to enhance marketing campaigns by providing personalised product suggestions to users.&#xA;My Responsibilities Made decisions around model architectures and implementation for recommender systems. Created custom recommender system that took sequence of user-product interactions into account.</description>
+    </item>
+    <item>
+      <title>RAG QA</title>
+      <link>https://ruankie.github.io/projects/personal/rag-qa/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ruankie.github.io/projects/personal/rag-qa/</guid>
       <description>Description RAG-QA is a free, containerised question-answer framework that allows you to ask questions to your documents in an intuitive way.&#xA;This app uses a method called retrieval augmented generation (RAG) to retrieve information that is relevant to your question from your uploaded document. It then uses a large language model (LLM) to answer the question with the retrieved context.&#xA;The current implementation uses the following components:&#xA;LLM: Google Gemini Pro Embedding Model: all-MiniLM-L6-v2 Vector Database: Chroma DB Frontend: Streamlit Backend: FastAPI Demo This demo shows the app answering a question related to Alphabet Inc&amp;rsquo;s Q3 financial result from 2023.</description>
     </item>
     <item>
       <title>Soil Resistivity Prediction</title>
-      <link>https://ruankie.github.io/projects/soil-resistivity-prediction/</link>
+      <link>https://ruankie.github.io/projects/personal/soil-resistivity-prediction/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ruankie.github.io/projects/soil-resistivity-prediction/</guid>
+      <guid>https://ruankie.github.io/projects/personal/soil-resistivity-prediction/</guid>
       <description>Soil Resistivity Prediction in South Africa: Using Decision Trees for Improving The Design Process of Overhead Power Line Tower Earth Electrodes&#xA;Read the full report here.&#xA;Project Overview Soil resistivity measurements are required for the earth electrode design of many structures like telecommunication towers, photovoltaic power plants, and overhead power lines to comply with design standards. For long lines of high voltage overhead power lines, this may require the laborious task of soil resistivity measurement at every tower site as well as a multistep iterative design and construction process.</description>
+    </item>
+    <item>
+      <title>Various Agentic RAG Chatbot POCs (FinTech &amp; HealthTech)</title>
+      <link>https://ruankie.github.io/projects/consulting/2024/agentic-rag-chatbot-pocs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ruankie.github.io/projects/consulting/2024/agentic-rag-chatbot-pocs/</guid>
+      <description>Date: May 2024 - Aug 2024&#xA;Roles: AI Engineer, Data Scientist&#xA;This project was completed while I was a consultant at Melio AI, and some of the project details have been obfuscated.&#xA;Overview Developed multiple low-cost agentic RAG chatbot systems as proof of concept to demonstrate value for future development. Designed and built a reusable system template that was adopted company-wide for agentic LLM projects.&#xA;My Responsibilities Designed architecture for agents, knowledge bases, and interfaces.</description>
     </item>
   </channel>
 </rss>
