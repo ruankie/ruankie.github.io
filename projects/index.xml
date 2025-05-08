@@ -8,6 +8,13 @@
     <language>en</language>
     <atom:link href="https://ruankie.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Automated Call Quality Assurance System (Banking)</title>
+      <link>https://ruankie.github.io/projects/consulting/2025/automated-qa-system/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://ruankie.github.io/projects/consulting/2025/automated-qa-system/</guid>
+      <description>Date: Apr 2025 – Present&#xA;Roles: Machine Learning Engineer, MLOps Engineer&#xA;This project was completed while I was a consultant at Melio AI, and some of the project details have been obfuscated.&#xA;Overview Developed an automated quality assurance system to evaluate call center agent compliance by transcribing audio and analysing conversations using language models. The system was designed to ensure auditability and transparency in regulated financial environments.&#xA;My Responsibilities Designed and implemented modular training and inference pipelines.</description>
+    </item>
+    <item>
       <title>Automated Regulatory Reporting Pipeline</title>
       <link>https://ruankie.github.io/projects/consulting/2023/automated-reg-reporting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -23,10 +30,10 @@
     </item>
     <item>
       <title>Customer Support Chatbot (Insurance)</title>
-      <link>https://ruankie.github.io/projects/consulting/2024/insurance-chatbot/</link>
+      <link>https://ruankie.github.io/projects/consulting/2025/insurance-chatbot/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://ruankie.github.io/projects/consulting/2024/insurance-chatbot/</guid>
-      <description>Date: Jul 2024 - Present&#xA;Roles: AI Engineer, Data Scientist, Project Manager&#xA;This project was completed while I was a consultant at Melio AI, and some of the project details have been obfuscated.&#xA;Overview Led the design, implementation, monitoring, evaluation and project management of a of an agentic RAG chatbot system. The chatbot successfully handled user queries, saving human resources and improving operational efficiency.&#xA;My Responsibilities Managed a team of 3 developers and engaged with clients to determine requirements.</description>
+      <guid>https://ruankie.github.io/projects/consulting/2025/insurance-chatbot/</guid>
+      <description>Date: Jul 2024 - Present&#xA;Roles: AI Engineer, Data Scientist, Project Manager&#xA;This project was completed while I was a consultant at Melio AI, and some of the project details have been obfuscated.&#xA;Overview Led the design, implementation, monitoring, evaluation and project management of a of an agentic RAG chatbot system. The chatbot successfully handled user queries, saving human resources and improving operational efficiency. The entire system infrastructure was captured as code to enable repeatable deployments.</description>
     </item>
     <item>
       <title>Differentially Private Range Queries</title>
